@@ -9,7 +9,7 @@
 View my portfolio to learn more about me and view some of my projects!
 
 ## Preview
-![Preview](https://github.com/nsuroghon/Employee-Directory/blob/main/Screen%20Shot%202021-03-24%20at%2010.14.19%20AM.png)
+![Preview](/public/images/preview.png)
 
 ## License
 MIT License.
