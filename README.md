@@ -14,6 +14,9 @@ View my portfolio to learn more about me and view some of my projects!
 ## License
 MIT License.
 
+## Credits
+Credit @rbhatia46 for portfolio template: https://github.com/rbhatia46
+
 ## More Info
 Github: https://github.com/nsuroghon
 
