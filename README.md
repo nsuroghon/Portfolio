@@ -1,16 +1,20 @@
-[![HitCount](http://hits.dwyl.io/rbhatia46/React-Portfolio.svg)](http://hits.dwyl.io/rbhatia46/React-Portfolio)
-![Star this repository](https://img.shields.io/github/stars/rbhatia46/React-Portfolio?style=social)
+# React Employee Directory
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A simple SPA Portfolio template for developer/designers built with React. Use it to showcase your work, testimonials and other information to clients.
+## Visit
+[View Live Portfolio](https://nsuroghon.github.io/Employee-Directory/)
+
+## Description
+View my portfolio to learn more about me and view some of my projects!
 
 ## Preview
-![Preview](https://image.ibb.co/e5uBf0/Capture.png)
+![Preview](https://github.com/nsuroghon/Employee-Directory/blob/main/Screen%20Shot%202021-03-24%20at%2010.14.19%20AM.png)
 
-## How to use
-1. Clone/Download the repo.
-2. Run  ``` npm install ```.
-3. Change the values in ```src/resumeData.js``` to suit your use-case.
-4. Run ```npm start``` to spin the up the local dev server port 3000.(http://localhost:3000).
-5. Make required changes in ```src/resumeData.js``` to suit your needs.
+## License
+MIT License.
 
+## More Info
+Github: https://github.com/nsuroghon
+
+Email: nsuroghon@gmail.com
