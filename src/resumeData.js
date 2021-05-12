@@ -1,60 +1,60 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
+    "imagebaseurl":"https://nsuroghon.github.io/",
+    "name": "Niv Suroghon",
+    "role": "Full-Stack Developer",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "roleDescription": "Full-Stack Developer in Toronto, ON.",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/nsuroghon",
           "className":"fa fa-github"
         },
         {
           "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
+          "url":"",
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme":"I am a Full Stack Developer with a passion for technology. My passion for technology drives me to continue to learn and grow as a developer daily. Over the last decade web and mobile apps have become a vital part of our lives. They have changed the way in which we interact with the world. My goal as a developer, is to take part in the future generation of applications that will shape the next decade.",
+    "address":"Toronto",
+    "website":"",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "UniversityName":"University of Toronto",
+        "specialization":"Graduate Studies Certificate - Full Stack Development",
+        "MonthOfPassing":"Apr",
+        "YearOfPassing":"2021",
+        "Achievements":"An intensive programme focused on gaining technical programming skills."
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "UniversityName":"Western University",
+        "specialization":"Bachelor of Arts - Political Science",
+        "MonthOfPassing":"Class of",
+        "YearOfPassing":"2020",
+        "Achievements":"Educated in the fields of American/Canadian Politics, Constitutional Law, Public Policy, International Relations and Media."
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Server Software",
+        "specialization":"Technology",
+        "MonthOfLeaving":"",
+        "YearOfLeaving":"",
+        "Achievements":"NodeJS, ExpressJS, SQL, MongoDB."
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Client-Side Software & Design",
+        "specialization":"Technology",
+        "MonthOfLeaving":"",
+        "YearOfLeaving":"",
+        "Achievements":"JavaScript ES6+, CSS3, HTML5, Bootstrap, Query, HandlebarsJS, React."
       }
     ],
     "skillsDescription":"Your skills here",
@@ -71,24 +71,25 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"DevWeb",
+        "description":"Developer portal for news, podcasts, job listings, and coding practice",
+        "imgurl":"./images/devweb.png",
+        "url":"https://github.com/group04-project03-uoftscs/Dev-Web"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"Budget Tracker",
+        "description":"Track deposits & withdrawals, works offline",
+        "imgurl":"./images/budget.png"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "name":"5 O'clock Somewhere",
+        "description":"Cocktail recipe application",  
+        "imgurl":"./images/cocktail.png"
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Employee Database",
+        "description":"User-friendly employee data storage",
+        "imgurl":"./images/empdatabase.png"
       }
     ],
     "testimonials":[
