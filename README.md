@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Visit
-[View Live Portfolio](https://nsuroghon.github.io/Employee-Directory/)
+[View Live Portfolio](https://nsuroghon.github.io/portfolio/)
 
 ## Description
 View my portfolio to learn more about me and view some of my projects!
