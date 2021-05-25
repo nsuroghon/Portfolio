@@ -7,7 +7,7 @@ export default class Porfolio extends Component {
       <div className="row">
         <div className="twelve columns collapsed">
           <h1>Check Out Some of My Recent Projects.</h1>
-          <p style={{textAlign: "center",}}>click to view code</p>
+          <p style={{textAlign: "center",}}><a href="https://github.com/nsuroghon" target="_blank">click to view code</a></p>
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
