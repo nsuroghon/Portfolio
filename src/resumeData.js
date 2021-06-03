@@ -2,7 +2,8 @@ let resumeData = {
     "imagebaseurl":"https://nsuroghon.github.io/",
     "name": "Niv Suroghon",
     "role": "Full-Stack Developer",
-    "linkedinId":"Your LinkedIn Id",
+    "linkedinId":" Your LinkedIn Id",
+    "email":" nsuroghon@gmail.com",
     "skypeid": "Your skypeid",
     "roleDescription": "Full-Stack Developer in Toronto, ON.",
     "socialLinks":[
