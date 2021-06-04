@@ -4,17 +4,17 @@ export default class Porfolio extends Component {
     let resumeData = this.props.resumeData;
     return (
       <section id="portfolio">
-      <div className="row">
+      <div className="row" style={{height: '100%'}}>
         <div className="twelve columns collapsed">
           <h1>Check Out Some of My Recent Projects.</h1>
-          <p style={{textAlign: "center",}}><a href="https://github.com/nsuroghon" target="_blank">click to view code</a></p>
+          {/* <p style={{textAlign: "center",}}><a href="https://github.com/nsuroghon" target="_blank">click to view code</a></p> */}
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
                 <div className="columns portfolio-item">
                   <div className="item-wrap" style={{padding: "5px", boxShadow: "5px 5px 5px 5px"}}>
-                    <a target="_blank" href="">
+                    {/* <a target="_blank" href=""> */}
                       <img src={`${item.imgurl}`} className="item-img"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
@@ -22,8 +22,19 @@ export default class Porfolio extends Component {
                           <p>{item.description}</p>
                         </div>
                       </div>
-                    </a>
+                    {/* </a> */}
                   </div>
+
+                  <div style={{paddingTop: '40px', textAlign: 'center'}}>
+                    <h1 style={{textDecorationLine: 'underline'}}>technology</h1>
+                    <p>{item.tech}</p>
+                  </div>
+
+                  <div>
+                    <a style={{textAlign: 'center'}}><p>deployed project</p></a>
+                    <a style={{textAlign: 'center'}}><p>code</p></a>
+                  </div>
+
                 </div>
               )
             })

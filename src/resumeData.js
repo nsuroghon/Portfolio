@@ -75,22 +75,26 @@ let resumeData = {
         "name":"DevWeb",
         "description":"Developer portal for news, podcasts, job listings, and coding practice",
         "imgurl":"./images/devweb.png",
-        "url":"https://github.com/group04-project03-uoftscs/Dev-Web"
+        "url":"https://github.com/group04-project03-uoftscs/Dev-Web",
+        "tech": "React, Node, Express, MongoDB + Atlas"
       },
       {
         "name":"Budget Tracker",
         "description":"Track deposits & withdrawals, works offline",
-        "imgurl":"./images/budget.png"
+        "imgurl":"./images/budget.png",
+        "tech": "Javascript, IndexedDB, cache API ,Service Workers"
       },
       {
         "name":"5 O'clock Somewhere",
         "description":"Cocktail recipe application",  
-        "imgurl":"./images/cocktail.png"
+        "imgurl":"./images/cocktail.png",
+        "tech": "HTML, CSS, Javascript"
       },
       {
-        "name":"Employee Database",
+        "name":"Employee Directory",
         "description":"User-friendly employee data storage",
-        "imgurl":"./images/empdatabase.png"
+        "imgurl":"./images/empdatabase.png",
+        "tech": "React"
       }
     ],
     "testimonials":[
