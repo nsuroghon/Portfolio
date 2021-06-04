@@ -76,25 +76,33 @@ let resumeData = {
         "description":"Developer portal for news, podcasts, job listings, and coding practice",
         "imgurl":"./images/devweb.png",
         "url":"https://github.com/group04-project03-uoftscs/Dev-Web",
-        "tech": "React, Node, Express, MongoDB + Atlas"
+        "tech": "React, Node, Express, MongoDB + Atlas",
+        "live": "https://dev-web3.herokuapp.com",
+        "code": "https://github.com/group04-project03-uoftscs/Dev-Web"
       },
       {
         "name":"5 O'clock Somewhere",
         "description":"Cocktail recipe application",  
         "imgurl":"./images/cocktail.png",
-        "tech": "HTML, CSS, Javascript"
+        "tech": "HTML, CSS, Javascript",
+        "live": "https://nsuroghon.github.io/5-o-Clock-Somewhere/",
+        "code": "https://github.com/nsuroghon/5-o-Clock-Somewhere"
       },
       {
         "name":"Budget Tracker",
         "description":"Track deposits & withdrawals, works offline",
         "imgurl":"./images/budget.png",
-        "tech": "Javascript, IndexedDB, cache API ,Service Workers"
+        "tech": "Javascript, IndexedDB, cache API ,Service Workers",
+        "live": "https://fierce-reef-41934.herokuapp.com",
+        "code": "https://github.com/nsuroghon/Budget-Tracker"
       },
       {
         "name":"Employee Directory",
         "description":"User-friendly employee data storage",
         "imgurl":"./images/empdatabase.png",
-        "tech": "React"
+        "tech": "React",
+        "live": "https://nsuroghon.github.io/Employee-Dir/",
+        "code": "https://github.com/nsuroghon/Employee-Dir"
       }
     ],
     "testimonials":[

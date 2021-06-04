@@ -31,8 +31,8 @@ export default class Porfolio extends Component {
                   </div>
 
                   <div>
-                    <a style={{textAlign: 'center'}}><p>deployed project</p></a>
-                    <a style={{textAlign: 'center'}}><p>code</p></a>
+                    <a target='_blank' href={item.live} style={{textAlign: 'center'}}><p>Deployed App</p></a>
+                    <a target='_blank' href={item.code} style={{textAlign: 'center'}}><p>Code</p></a>
                   </div>
 
                 </div>
