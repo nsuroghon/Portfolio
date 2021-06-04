@@ -79,16 +79,16 @@ let resumeData = {
         "tech": "React, Node, Express, MongoDB + Atlas"
       },
       {
-        "name":"Budget Tracker",
-        "description":"Track deposits & withdrawals, works offline",
-        "imgurl":"./images/budget.png",
-        "tech": "Javascript, IndexedDB, cache API ,Service Workers"
-      },
-      {
         "name":"5 O'clock Somewhere",
         "description":"Cocktail recipe application",  
         "imgurl":"./images/cocktail.png",
         "tech": "HTML, CSS, Javascript"
+      },
+      {
+        "name":"Budget Tracker",
+        "description":"Track deposits & withdrawals, works offline",
+        "imgurl":"./images/budget.png",
+        "tech": "Javascript, IndexedDB, cache API ,Service Workers"
       },
       {
         "name":"Employee Directory",
