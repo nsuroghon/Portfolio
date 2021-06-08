@@ -60,7 +60,7 @@ export default  class Resume extends Component {
               }
             </div> 
          </div>
-         <p style={{textAlign: "center",}}><a href="https://docs.google.com/document/d/1ZVUVenrnQqMlBqWeW-0z34bWWEp-NTTDqLQvkhXyfmQ/edit?usp=sharing" target="_blank">FULL RESUME</a></p>
+         <p style={{textAlign: "center",}}><a href="https://docs.google.com/document/d/1fvsFLHUKN0NHJ3oStc2KjUgiI8EBjdxI23G7Hx-ZGH0/edit?usp=sharing" target="_blank">FULL RESUME</a></p>
          {/* <Button variant="secondary" size="sm">
       Small button
     </Button> */}
