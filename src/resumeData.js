@@ -23,7 +23,7 @@ let resumeData = {
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am a Full Stack Developer with a passion for technology. My passion for technology drives me to continue to learn and grow as a developer daily. Over the last decade web and mobile apps have become a vital part of our lives. They have changed the way in which we interact with the world. My goal as a developer, is to take part in the future generation of applications that will shape the next decade.",
+    "aboutme":"I'm a full-stack developer aiming to build aesthetically pleasing and innovative software.",
     "address":"Toronto",
     "website":"",
     "education":[

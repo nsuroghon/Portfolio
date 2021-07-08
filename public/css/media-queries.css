@@ -222,8 +222,8 @@
       text-align: center;
       padding: 15px 20px;
    }
-   #about .main-col { padding-right: 30px; }
 
+   #about .main-col { padding-right: 30px; }
 
    /* Resume Section
    --------------------------------------------------------------------- */
@@ -373,11 +373,11 @@
 
 }
 
+/* Tablet (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+   #about .text { margin-left: 0;}
 
-
-
-
-
-
-
-
+}
