@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import Background from '../assets/landing2.png';
+
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
-    var backgroundStyle = {
-      backgroundImage: "url(" + { Background } + ")"
-    }
+  
     return (
       <React.Fragment>
       
-      <header id="home" style={{backgroundStyle}}>
+      <header id="home">
          <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
           <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
@@ -25,8 +23,8 @@ export default class Header extends Component {
 
          <div className="row banner">
             <div className="banner-text">
-               <h1 className="responsive-headline">{resumeData.name}.</h1>
-               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>{resumeData.roleDescription}
+               <h1 className="responsive-headline" style={{top: '20%',}}>{resumeData.name}.</h1>
+               <h3 style={{color:'#fff', fontFamily:'sans-serif', paddingTop: '140px'}}>{resumeData.roleDescription}
                </h3>
                <hr/>
                <ul className="social">
