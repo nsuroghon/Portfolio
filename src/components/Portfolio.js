@@ -1,5 +1,25 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
+import Modal from './Modal';
+
+
 export default class Porfolio extends Component {
+
+  constructor() {
+    super();
+    this.state = {
+      show: false
+    };
+  }
+
+  showModal = () => {
+    this.setState({ show: true })
+  }
+
+  hideModal = () => {
+    this.setState({ show: false })
+  }
+
+
   render() {
     let resumeData = this.props.resumeData;
 
@@ -21,7 +41,7 @@ export default class Porfolio extends Component {
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
                           <div style={{height: '100px', width: '100%'}}>
-                            <h5 style={{border: '1px solid white', padding: '5px', width: '30%', textAlign: 'center', verticalAlign: 'middle', marginTop: '15px'}}>Learn More</h5>
+                            <h5 onClick={this.showModal} style={{border: '1px solid white', padding: '5px', width: '30%', textAlign: 'center', verticalAlign: 'middle', marginTop: '15px'}}>Learn More</h5>
                           </div>
                         </div>
                       </div>
@@ -44,6 +64,11 @@ export default class Porfolio extends Component {
           </div>
         </div>
       </div>
+      
+    <Modal show={this.state.show} handleClose={this.hideModal}>
+      <p>Modal</p>
+    </Modal>     
+      
   </section>
         );
   }
