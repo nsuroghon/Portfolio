@@ -1,0 +1,11 @@
+@media screen and (min-width: 600px) {
+    .aboutMe {
+      /* Apply some styles */
+      padding-top: 60px;
+    }
+
+    .columns .portfolio-item {
+        height: 250px;
+    }
+
+  }

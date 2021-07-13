@@ -1,5 +1,6 @@
 import React, { Component, useState } from 'react';
 import Modal from './Modal';
+import './random.css';
 
 
 export default class Porfolio extends Component {
@@ -33,7 +34,7 @@ export default class Porfolio extends Component {
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
-                <div className="columns portfolio-item" style={{width: '50%', height: '250px'}}>
+                <div className="columns portfolio-item" style={{width: '50%'}}>
                   <div className="item-wrap" style={{ boxShadow: "5px 5px 5px 5px"}}>
                       <img src={`${item.imgurl}`} className="item-img"/>
                       <div className="overlay">
