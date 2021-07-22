@@ -9,6 +9,9 @@ const Modal = ({ handleClose, show, children, resumeData }) => {
     if(show === true) {
       document.body.style.overflow = 'hidden';
     }
+    if(show === false) {
+      document.body.style.overflow = 'auto';
+    }
 
     return (
       <div className={showHideClassName}>
