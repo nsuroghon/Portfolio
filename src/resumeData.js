@@ -78,7 +78,8 @@ let resumeData = {
         "url":"https://github.com/group04-project03-uoftscs/Dev-Web",
         "tech": "React, Node, Express, MongoDB + Atlas",
         "live": "https://dev-web3.herokuapp.com",
-        "code": "https://github.com/group04-project03-uoftscs/Dev-Web"
+        "code": "https://github.com/group04-project03-uoftscs/Dev-Web",
+        "id": 1
       },
       {
         "name":"5 O'clock Somewhere",
@@ -86,7 +87,9 @@ let resumeData = {
         "imgurl":"./images/cocktail.png",
         "tech": "HTML, CSS, Javascript",
         "live": "https://nsuroghon.github.io/5-o-Clock-Somewhere/",
-        "code": "https://github.com/nsuroghon/5-o-Clock-Somewhere"
+        "code": "https://github.com/nsuroghon/5-o-Clock-Somewhere",
+        "id": 2
+
       },
       {
         "name":"Budget Tracker",
@@ -94,7 +97,9 @@ let resumeData = {
         "imgurl":"./images/budget.png",
         "tech": "Javascript, IndexedDB, cache API ,Service Workers",
         "live": "https://fierce-reef-41934.herokuapp.com",
-        "code": "https://github.com/nsuroghon/Budget-Tracker"
+        "code": "https://github.com/nsuroghon/Budget-Tracker",
+        "id": 3
+
       },
       {
         "name":"Employee Directory",
@@ -102,7 +107,8 @@ let resumeData = {
         "imgurl":"./images/empdatabase.png",
         "tech": "React",
         "live": "https://nsuroghon.github.io/Employee-Dir/",
-        "code": "https://github.com/nsuroghon/Employee-Dir"
+        "code": "https://github.com/nsuroghon/Employee-Dir",
+        "id": 4
       }
     ],
     "testimonials":[
