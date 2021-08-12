@@ -83,9 +83,9 @@ let resumeData = {
       },
       {
         "name":"5 O'clock Somewhere",
-        "description":"Cocktail recipe application",  
+        "description":"Cocktail application that receives user taste preferences and returns unique recipes for the user to try at home",  
         "imgurl":"./images/cocktail.png",
-        "tech": "HTML, CSS, Javascript",
+        "tech": "Javascript, HTML, Materialize CSS",
         "live": "https://nsuroghon.github.io/5-o-Clock-Somewhere/",
         "code": "https://github.com/nsuroghon/5-o-Clock-Somewhere",
         "id": 2
@@ -93,7 +93,7 @@ let resumeData = {
       },
       {
         "name":"Budget Tracker",
-        "description":"Track deposits & withdrawals, works offline",
+        "description":"A application built for users to track deposits and withdrawals to an account balance, with or without internet access. Well-suited for a user who is travelling.",
         "imgurl":"./images/budget.png",
         "tech": "Javascript, IndexedDB, cache API ,Service Workers",
         "live": "https://fierce-reef-41934.herokuapp.com",
@@ -102,12 +102,12 @@ let resumeData = {
 
       },
       {
-        "name":"Employee Directory",
-        "description":"User-friendly employee data storage",
-        "imgurl":"./images/empdatabase.png",
-        "tech": "React",
-        "live": "https://nsuroghon.github.io/Employee-Dir/",
-        "code": "https://github.com/nsuroghon/Employee-Dir",
+        "name":"Photo Gallery",
+        "description":"A responsive gallery app with high-resolution images gathered from Pixabay API. Designed to display images geared towards user searches.",
+        "imgurl":"./images/galleryapp.png",
+        "tech": "React, Node, TailwindCSS",
+        "live": "https://nsuroghon.github.io/image-gallery/",
+        "code": "https://github.com/nsuroghon/image-gallery",
         "id": 4
       }
     ],

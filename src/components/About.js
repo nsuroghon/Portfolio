@@ -13,7 +13,7 @@ export default class About extends Component {
                <h1 className="aboutMe" style={{color: 'white', display: 'flex'}}>{resumeData.aboutme}</h1>
             </div>
             <div className="" style={{height: '250px', width: '200px', marginLeft: '8%', marginTop: '60px'}}>
-               <img className="profile-pic"  src="images/profilepic.png" alt="" />
+               <img className="profile-pic"  src="/images/IMG_0519.png" alt="" />
             </div>
                         {/* <div className="row" style={{padding: '70px 0'}}>
                            <div>
